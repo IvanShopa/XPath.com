@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0px;
+}
+.block-1 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block-2 {
+  width: 100%;
+}
+@media (min-width: 760px) {
+  .block-2 {
+    width: 50%;
+  }
+}
+.block-2-1 {
+  height: 100%;
+  background-color: black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.block-2-1 ::selection {
+  background-color: white;
+  color: black;
+}
+.block-2-2 {
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.block-2-2 ::selection {
+  background-color: black;
+  color: white;
+}
+.block-3 {
+  display: flex;
+  flex-direction: column;
+}
+.block-3-1-1 {
+  height: 50%;
+  box-sizing: border-box;
+}
+.block-3-1-2 {
+  height: 100%;
+}
+.block-3-2 {
+  padding-bottom: 30px;
+}
+.text {
+  margin: 0px 0px 10px 0px;
+  font-family: Arial;
+  text-align: center;
+}
+.text-1 {
+  color: white;
+}
+textarea {
+  display: block;
+  flex: 1;
+  outline: none;
+  resize: none;
+  width: 100%;
+  padding: 13px;
+  font-family: Consolas;
+  font-size: 20px;
+  line-height: 1;
+  white-space: pre;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+.input-1 {
+  scrollbar-color: black white;
+  caret-color: black;
+  border: 3px solid white;
+}
+.input-1::placeholder {
+  color: rgb(85, 85, 85);
+}
+.input-1::selection {
+  background-color: black;
+  color: white;
+}
+.input-1:focus {
+  border: 3px solid black;
+  box-shadow: 0px 0px 30px white;
+}
+.input-2 {
+  background-color: black;
+  color: white;
+  scrollbar-color: white black;
+  border: 3px solid black;
+}
+.input-2::placeholder {
+  color: rgb(170, 170, 170);
+}
+.input-2::selection {
+  background-color: white;
+  color: black;
+}
+.input-2:focus {
+  border: 3px solid white;
+  box-shadow: 0px 0px 30px black;
+}
